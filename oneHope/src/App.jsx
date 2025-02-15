@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import {Header} from './components/Header'
-import gath from '/events/eventsA1.webp'
 import { Hero } from './components/Hero'
-import { Service } from './components/Service'
+import { ServiceTime } from './components/ServiceTime'
+import { Services } from './components/Services'
 
 function App() {
 
@@ -13,7 +12,8 @@ function App() {
       <div className="bg-bg h-fit w-screen overflow-x-hidden">
         <Header/>
         <Hero/>
-        <Service/>
+        <ServiceTime/>
+        <Services/>
       </div>
     </>
   )

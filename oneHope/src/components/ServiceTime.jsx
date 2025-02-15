@@ -1,7 +1,7 @@
 import { useState } from "react";
 import map from '/map1.png'
 
-export function Service(){
+export function ServiceTime(){
 
     const serviceTimes = [
       { day: "Monday", time: "10:00 AM", type: "Worship" },
@@ -18,7 +18,7 @@ export function Service(){
         <div id="services" className="py-20 px-20 flex flex-col gap-10">
 
           <div className="text-3xl font-poppins">
-            Services & Location
+            Service Times & Location
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6  rounded-xl shadow-lg max-w-screen">
             {/* Map Section */}
