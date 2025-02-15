@@ -3,7 +3,6 @@ import { DisplayItem } from "./helper/DisplayItem";
 import community from '/community.png'
 import question from '/question.png'
 import stream from '/stream.png'
-import event from '/event.png'
 
 export function Events(){
     const description ='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil debitis repellat iste .'

@@ -5,6 +5,8 @@ import { Hero } from './components/Hero'
 import { ServiceTime } from './components/ServiceTime'
 import { Services } from './components/Services'
 import { Events } from './components/Events'
+import { PastorProfile } from './components/Pastor'
+import {ScrollToTop} from './components/helper/ScrollToTop'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <ServiceTime/>
         <Services/>
         <Events/>
+        <PastorProfile/>
+        <ScrollToTop/>
       </div>
     </>
   )
