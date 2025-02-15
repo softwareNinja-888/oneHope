@@ -1,8 +1,8 @@
-export function Button({styles='border border-btn px-4 py-3 rounded text-bg bg-btn cursor-pointer',text='Button Name'}){
+export function Button({styles='flex justify-center border border-btn px-4 py-3 text-bg bg-btn cursor-pointer w-36',text='Button Name',extra=''}){
 
     return (
         <>
-            <div className={`${styles} `}>
+            <div className={`${styles} ${extra} `}>
                 {text}
             </div>
         </>

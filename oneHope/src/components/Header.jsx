@@ -6,7 +6,7 @@ export function Header(){
         <>
             <div className="flex justify-between items-center w-screen px-10">
                 <div className="">
-                    <img src={logo} alt="logo" className="w-36 h-36" />
+                    <img src={logo} alt="logo" className="md:w-48 md:h-24 cursor-pointer" />
                 </div>
                 <nav className="hidden lg:flex space-x-20 text-sm text-black font-mont ">
                 
@@ -29,8 +29,7 @@ export function Header(){
 
                 </nav>
                 <div className="flex gap-5">
-                    <Button text='Wacth Online'/>
-                    <Button text="Resources"/>
+                    <Button extra='font-inter' text="Resources"/>
                 </div>
             </div>
         </>
