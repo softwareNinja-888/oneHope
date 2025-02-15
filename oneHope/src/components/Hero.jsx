@@ -4,7 +4,7 @@ import group from '/events/eventsB1.webp'
 export function Hero (){
     return (
         <>
-            <div className="flex justify-center items-center gap-60 py-20">
+            <div className="flex justify-between items-center py-20 px-20">
                 <div className="flex flex-col gap-6 max-w-[490px]">
                     <div className="font-poppins text-5xl">
                         Come As You Are. And Experience Gods Love
@@ -14,7 +14,7 @@ export function Hero (){
                     </div>
                     <div className="flex gap-10">
                         <Button text='Watch Online' extra='font-roboto'/>
-                        <Button text='Plan Visit' extra='font-roboto'/>
+                        <Button text='Get Directions' extra='font-roboto'/>
 
                     </div>
                 </div>

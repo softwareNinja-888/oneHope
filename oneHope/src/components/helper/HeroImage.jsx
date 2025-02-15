@@ -4,7 +4,7 @@ export function HeroImage({img}) {
 
   return (
     
-    <div className="relative w-64 h-72 md:w-92 md:h-92 rounded-full overflow-hidden border-4 border-yellow-600 shadow-2xl shadow-gray-600">
+    <div className="relative w-64 h-72 md:w-92 md:h-92 rounded-full overflow-hidden border-4 border-yellow-600 shadow-xl shadow-gray-600">
       <img
         src={img}
         alt="Worship Gathering"
