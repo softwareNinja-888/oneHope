@@ -35,7 +35,7 @@
 @theme {
   
     /* GOLD */
-    --color-bg: #fcf7e9
+    --color-bg: #fcf7e9;
 
     /* DARK BROWN */
     --color-btn : #885013; 
@@ -46,7 +46,7 @@
 
     /* FONT COLOR   */
 
-    --color-fntColor: #deb88b
+    --color-fntColor: #deb88b;
 
 
     --font-lora : 'lora','sans-serif';
