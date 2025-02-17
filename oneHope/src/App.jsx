@@ -8,6 +8,9 @@ import { Events } from './components/Events'
 import { PastorProfile } from './components/Pastor'
 import {ScrollToTop} from './components/helper/ScrollToTop'
 
+import {Introduction} from './components/Introduction'
+
+
 function App() {
 
   return (
@@ -16,6 +19,7 @@ function App() {
         <Header/>
         <Hero/>
         <ServiceTime/>
+        <Introduction />
         <Services/>
         <Events/>
         <PastorProfile/>

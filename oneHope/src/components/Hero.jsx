@@ -1,6 +1,6 @@
 import { Button } from './helper/Button'
 import {HeroImage} from './helper/HeroImage'
-import group from '/events/eventsB1.webp'
+import church from '/church2.jpeg'
 export function Hero (){
     return (
         <>
@@ -19,7 +19,7 @@ export function Hero (){
                     </div>
                 </div>
                 <div className="">
-                    <HeroImage img={group}/>
+                    <HeroImage img={church}/>
                 </div>
             </div>
         </>
