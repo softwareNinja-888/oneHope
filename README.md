@@ -1,4 +1,3 @@
-```markdown
 # Church Landing Page
 
 A modern and responsive landing page for a church, designed to welcome visitors and highlight community events and ministries. The site features a clean layout, inviting visuals, and intuitive navigation that together create an engaging user experience.
