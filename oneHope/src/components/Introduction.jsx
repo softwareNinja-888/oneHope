@@ -17,7 +17,7 @@ export function Introduction() {
   
   return (
     <div className="px-0 py-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0 w-[80%] mx-auto p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0 w-[80%] mx-auto">
         <div className="relative flex items-center">
           {activeTab === 0 && (
             <img

@@ -1,14 +1,12 @@
-import { useState } from 'react'
-
 import {Header} from './components/Header'
 import { Hero } from './components/Hero'
+import {Introduction} from './components/Introduction'
 import { ServiceTime } from './components/ServiceTime'
 import { Services } from './components/Services'
 import { Events } from './components/Events'
 import { PastorProfile } from './components/Pastor'
 import {ScrollToTop} from './components/helper/ScrollToTop'
 
-import {Introduction} from './components/Introduction'
 
 
 function App() {
